@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>MoveWell – Food Tips & Resep Sehat</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com"/>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Rajdhani:wght@400;500;600;700&family=DM+Sans:ital,wght@0,300;0,400;0,500;1,300&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="page-food">
+
+  <!-- ======== NAVBAR ======== -->
+  <header id="navbar">
+    <div class="nav-logo">MOVE<span>WELL</span></div>
+    <nav id="nav">
+      <ul>
+        <li><a href="index.html" class="nav-link">Home</a></li>
+        <li><a href="workout.html" class="nav-link">Workout</a></li>
+        <li><a href="pain-recovery.html" class="nav-link">Pain Recovery</a></li>
+        <li><a href="food-tips.html" class="nav-link active">Food Tips</a></li>
+      </ul>
+    </nav>
+    <button class="hamburger" id="hamburger" aria-label="Menu">
+      <span></span><span></span><span></span>
+    </button>
+  </header>
+
+  <!-- ======================================================= -->
+  <!--                   FOOD TIPS PAGE                        -->
+  <!-- ======================================================= -->
+  <main>
+    <div class="inner-page-hero">
+      <div class="container">
+        <div class="inner-hero-label">🥗 Food Tips</div>
+        <h1 class="inner-hero-title">Resep &amp; Nutrisi<br><span class="accent">Praktis</span></h1>
+        <p class="inner-hero-sub">Resep anti-ribet, meal prep ideas, dan tips nutrisi yang tidak menyiksa. Makan enak tetap sehat!</p>
+      </div>
+    </div>
+
+    <div class="category-tabs" id="food-tabs">
+      <button class="tab-btn active" data-cat="langsung">🥤 Langsung Dikonsumsi</button>
+      <button class="tab-btn" data-cat="diolah">🍳 Diolah dengan Alat</button>
+    </div>
+
+    <div class="cards-section">
+      <div id="food-langsung" class="category-section active">
+        <div class="category-heading">Langsung Dikonsumsi</div>
+        <div class="cards-grid" id="cards-food-langsung"></div>
+      </div>
+      <div id="food-diolah" class="category-section">
+        <div class="category-heading">Diolah dengan Alat</div>
+        <div class="cards-grid" id="cards-food-diolah"></div>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <div class="footer-logo">MOVEWELL</div>
+    <div class="footer-tagline">Gerak lebih baik. Pulih lebih cepat. Makan lebih sehat.</div>
+    <div class="footer-line"></div>
+    <div class="footer-copy">© 2025 MoveWell. Semua hak dilindungi.</div>
+  </footer>
+
+  <script src="js/food.js"></script>
+</body>
+</html>
